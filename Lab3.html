@@ -13503,7 +13503,7 @@ div#notebook {
 <p>$X_1 + X_2 \Rightarrow \mu = \mu_1 + \mu_2 \Rightarrow \sigma^2 = \sigma_1^2 + \sigma_2^2$</p>
 <p>$X_1 - X_2 \Rightarrow \mu = \mu_1 - \mu_2 \Rightarrow \sigma^2 = \sigma_1^2 + \sigma_2^2$</p>
 <p>Our above distribution has mean 0 and a variance of 1 arcsecond each. What we are interested in here is the probability density function of the difference between our two Gaussians, a difference multivariate vector. Our new mean is conveniently calculated as $0 + 0 = 0$ - Our new variance however, is slightly different because, as previously explored in class, the euclidian norm $\sqrt{(X_1^2 + X_2^2)}$ between two Gaussian distributions with equal variance follows a Rayleigh distribution with scale factor $\sigma$ equal to the standard deviation related to our original Gaussians by that same square root factor. As such, we expect the probability distribution function representing our two Gaussians to be a Rayleigh distribution with scale parameter $\sigma$ = $\sqrt{(1^2 + 1^2)} = \sqrt{2}$</p>
-<p>It then follows that to find</p>
+<p>It then follows that to calculate our 5-sigma threshold distance, we can use a Rayleigh distribution with $\sigma = \sqrt{2}$</p>
 <p>$\textbf{3.)}$ What distance in arcseconds represents a 5 sigma detection of motion?</p>
 
 </div>

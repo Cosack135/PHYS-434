@@ -13383,7 +13383,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Utlimately, this histogram represents the probability of measuring an observed data value given some true signal value. Since it essentially is a "slice" of the overall data, it corresponds to measured values with true signal values within the range defined by our chosen number. I chose ~13, which corresponds to signalcenters[25], i.e our range is the bin between the bounds of adjacent indices.</p>
+<p>Utlimately, this histogram represents the probability of measuring an observed data value given some true signal value. Since it essentially is a "slice" of the overall data, it corresponds to the probability of observing some data value for a specific true signal (arbitrarily chosen here). The horizontal line in the above graph is also a good representation in terms of P(d|s) and P(s|d), for clarity.</p>
 
 </div>
 </div>
@@ -13592,7 +13592,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Utlimately, this histogram represents the probability of measuring a true siganl  given some observed data value. Since it essentially is a "slice" of the overall data, it corresponds to measured values with observed data values within the range defined by our chosen number. I chose ~19.6, which corresponds to datacenters[52], i.e our range is the bin between the bounds of adjecent indices. In this case, it cuts off at true signal = 20, because our signal does not have values higher than 20 when it was declared by the problem specifications. (Also, sorry, I chose a value that is really close to the edge! My bad, makes it a little less obvious).</p>
+<p>Utlimately, this histogram represents the probability of measuring a true signal given some observed data value. Since it essentially is a "slice" of the overall data, it corresponds to the probability of various true signals for a specific observed data value (chosen arbitrarily here). The vertical line in the above graph is also a good representation in terms of P(d|s) and P(s|d), for clarity.</p>
 
 </div>
 </div>
